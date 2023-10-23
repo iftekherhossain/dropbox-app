@@ -4,8 +4,8 @@ import uvicorn
 import json
 app = FastAPI()
 
-APP_KEY = "6bztwh51l3xk723"
-APP_SECRET = "ywg8l2kj1517wmg"
+APP_KEY = ""
+APP_SECRET = ""
 
 @app.get("/get_auth_url")
 async def get_auth_url():
